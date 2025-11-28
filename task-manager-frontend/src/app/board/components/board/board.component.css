@@ -1,0 +1,6 @@
+/* No custom styles needed for now */
+@import "./../../../assets/styles/theme.css";
+
+.task-column {
+  @apply flex-1 w-1/4;
+}

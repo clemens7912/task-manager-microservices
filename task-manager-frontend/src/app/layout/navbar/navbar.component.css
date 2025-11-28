@@ -1,0 +1,5 @@
+@import "./../../assets/styles/theme.css";
+
+.nav-link {
+  @apply text-gray-300 hover:text-white px-3;
+}

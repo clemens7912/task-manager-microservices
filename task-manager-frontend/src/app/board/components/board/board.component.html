@@ -1,0 +1,8 @@
+<main class="flex-1 container mx-auto p-4 mt-16">
+  <div class="flex flex-wrap gap-4">
+    <app-task-column class="task-column" title="To Do" [tasks]="todoTasks"></app-task-column>
+    <app-task-column class="task-column" title="In Progress" [tasks]="inProgressTasks"></app-task-column>
+    <app-task-column class="task-column" title="In Review" [tasks]="inReviewTasks"></app-task-column>
+    <app-task-column class="task-column" title="Done" [tasks]="doneTasks"></app-task-column>
+  </div>
+</main>
